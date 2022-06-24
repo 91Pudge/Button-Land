@@ -1,0 +1,125 @@
+
+#NextPage {
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    margin: 0px;
+    border-radius: 25px;
+  }
+  
+  #Flashing1  {
+    animation: blink 2.5s infinite;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    margin: 0px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      color: blue;
+    }
+  }
+  #Flashing2 {
+    animation: blink 3s infinite;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    margin: 0px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      color: blue;
+    }
+  }
+  #Flashing3 {
+    animation: blink 3.5s infinite;
+    position: absolute;
+    left: 450px;
+    top: 450px;
+    margin: 0px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      color: blue;
+    }
+  }
+  #Flashing4 {
+    animation: blink 4s infinite;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    margin: 0px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      color: blue;
+    }
+  }
+  #Flashing5 {
+    animation: blink 5s infinite;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    margin: 0px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      color: blue;
+    }
+  }
+  body {
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    height: 100%;
+    justify-content: center;
+    background-color: cadetblue;
+  }
+
+
+  #HomeButton {
+    background-color: cornflowerblue;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 550px;
+      top: 100px;
+      margin: 0px;
+      border-radius: 25px;
+      
+  }
+
+  #pg2 {
+    background-color: red;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    margin: 0px;
+    border-radius: 25px;
+    background-color : red
+  }
